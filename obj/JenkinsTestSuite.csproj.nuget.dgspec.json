@@ -1,0 +1,103 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\meero\\Documents\\Dev\\Acumatica\\JenkinsTestSuite\\JenkinsTestSuite\\JenkinsTestSuite.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\meero\\Documents\\Dev\\Acumatica\\JenkinsTestSuite\\JenkinsTestSuite\\JenkinsTestSuite.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\meero\\Documents\\Dev\\Acumatica\\JenkinsTestSuite\\JenkinsTestSuite\\JenkinsTestSuite.csproj",
+        "projectName": "JenkinsTestSuite",
+        "projectPath": "C:\\Users\\meero\\Documents\\Dev\\Acumatica\\JenkinsTestSuite\\JenkinsTestSuite\\JenkinsTestSuite.csproj",
+        "packagesPath": "C:\\Users\\meero\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\meero\\Documents\\Dev\\Acumatica\\JenkinsTestSuite\\JenkinsTestSuite\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\meero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\Blazor\\20.3.0.56\\NuGetPackages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\dev\\Acumatica ERP\\_repos\\AcumaticaTestSDK\\21.203.0030\\packages": {},
+          "C:\\dev\\Acumatica ERP\\_repos\\AcumaticaTestSDK\\22.206.0035\\packages": {},
+          "C:\\dev\\Acumatica ERP\\_testsdk\\AcumaticaTestSDK\\22.120.0019.20\\packages": {},
+          "C:\\dev\\Acumatica ERP\\_testsdk\\AcumaticaTestSDK\\22.213.0010.11\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "ClassGenerator": {
+              "target": "Package",
+              "version": "[22.213.10.11, )"
+            },
+            "Core": {
+              "target": "Package",
+              "version": "[22.213.10.11, )"
+            },
+            "Execution": {
+              "target": "Package",
+              "version": "[22.213.10.11, )"
+            },
+            "GeneratedWrappers.Acumatica": {
+              "target": "Package",
+              "version": "[22.212.44-P185219, )"
+            },
+            "Host": {
+              "target": "Package",
+              "version": "[22.213.10.11, )"
+            },
+            "PX.QA.Tools": {
+              "target": "Package",
+              "version": "[22.213.10.11, )"
+            },
+            "System.CommandLine": {
+              "target": "Package",
+              "version": "[2.0.0-beta4.22272.1, )"
+            },
+            "System.CommandLine.NamingConventionBinder": {
+              "target": "Package",
+              "version": "[2.0.0-beta4.22272.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

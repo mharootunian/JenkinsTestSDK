@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <general>
+    <browser>chrome</browser>
+    <!--<browserbin>C:\AcumaticaTestSDK\21.200.0145\TestSDK\Chrome\chrome.exe</browserbin>-->
+    <browserbin>C:\dev\Acumatica ERP\_testsdk\AcumaticaTestSDK\22.213.0010.11\Chrome\chrome.exe</browserbin>
+
+    <!--<browser_downloads_folder>C:\AcumaticaTestSDK\20.200.0145\downloads</browser_downloads_folder>-->
+    <browser_downloads_folder>C:\dev\Acumatica ERP\_testsdk\AcumaticaTestSDK\22.213.0010.11\Chrome\downloads</browser_downloads_folder>
+
+    <site_dst>
+      <url>https://localhost/devJenkins1</url>
+      <login>admin</login>
+      <pswd>Password22</pswd>
+    </site_dst>
+    <logging>
+      <!--<logStorage type="htmlfile" level="DEBUG" outputFolder="C:\AcumaticaTestSDK\21.200.0145\TestSDK\logs" screenshotActive="true" />-->
+      <logStorage type="htmlfile" level="DEBUG" outputFolder="C:\dev\Acumatica ERP\_testsdk\AcumaticaTestSDK\22.213.0010.11\_logs" screenshotActive="true" />
+    </logging>
+  </general>
+  <testing>
+    <Check Name="Test" />
+  </testing>
+</config>
